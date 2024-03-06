@@ -121,7 +121,7 @@
 &kp Q  &kp W  &kp E         &kp R        &kp T       &kp Y  &kp U      &kp I      &kp O    &kp P
 &kp A  &kp S  &kp D         &kp F        &kp G       &kp H  &kp J      &kp K      &kp L    &kp SEMI
 &kp Z  &kp X  &kp C         &kp V        &kp B       &kp N  &kp M      &kp COMMA  &kp DOT  &kp FSLH
-              &ltq 2 ENTER  &ltq 1 BSPC  &ltq 3 ESC         &kp SPACE  &kp ESC
+                  &ltq 3 ESC &ltq 1 BSPC &ltq 2 ENTER       &kp SPACE  &kp ESC
             >;
         };
 
@@ -167,9 +167,9 @@
 
         Mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans
+&none  &none  &none  &none  &none  &none  &none     &none    &none    &none
+&none  &none  &none  &none  &none  &none  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none
+&none  &none  &none  &none  &none  &none  &none     &none     &none     &none
                 &trans  &trans  &trans          &trans     &to 0
             >;
         };
